@@ -4,7 +4,7 @@ import csv
 import requests
 
 def get_loc(name, address):
-  print(f"getting location for {name}")
+  print('getting location for {name}'.format(name))
 
 
 with open('epic_local_locations.csv') as open_file:
